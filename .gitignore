@@ -1,0 +1,7 @@
+/.idea/
+*.iml
+*.exe
+
+*.json
+*.log
+gigachat_client

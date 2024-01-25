@@ -1,0 +1,18 @@
+client:
+  client_id: "1"
+  client_secret: "1"
+  save_token: true
+  token_file_path: "token.json"
+
+chat:
+  model: "GigaChat:latest"
+  temperature:        0.87
+  n:                  1
+  max_tokens:         512
+  repetition_penalty: 1.07
+  save_history: true
+  history_file_path: "history.json"
+
+log:
+  level: all
+  file: "chat.log"
